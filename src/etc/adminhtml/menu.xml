@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+  ~   2011-2022 IT Consultis
+  ~
+  ~   NOTICE OF LICENSE
+  ~
+  ~   This source file is subject to the Open Software License (OSL 3.0) that is available
+  ~   through the world-wide-web at this URL: http://www.opensource.org/licenses/OSL-3.0
+  ~   If you are unable to obtain it through the world-wide-web, please send an email
+  ~   to contact@it-consultis.com so we can send you a copy immediately.
+  ~
+  ~   @author IT Consultis
+  ~   @copyright 2011-2022 IT Consultis
+  ~   @license http://www.opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="TijsDriven_Base::elements" title="TijsDriven.Dev" module="TijsDriven_Base" sortOrder="45" resource="TijsDriven_Base::elements"/>
+        <add id="TijsDriven_Base::placeholder_section"
+             title="Placeholder Section"
+             module="TijsDriven_Base"
+             sortOrder="9999"
+             resource="TijsDriven_Base::placeholder_section"
+             parent="TijsDriven_Base::elements"
+        />
+    </menu>
+</config>
