@@ -16,12 +16,5 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="TijsDriven_Base::elements" title="TijsDriven.Dev" module="TijsDriven_Base" sortOrder="45" resource="TijsDriven_Base::elements"/>
-        <add id="TijsDriven_Base::placeholder_section"
-             title="Placeholder Section"
-             module="TijsDriven_Base"
-             sortOrder="9999"
-             resource="TijsDriven_Base::placeholder_section"
-             parent="TijsDriven_Base::elements"
-        />
     </menu>
 </config>

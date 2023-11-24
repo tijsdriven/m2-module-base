@@ -3,13 +3,13 @@
     "description": "Tijs Driven Development base module for Magento 2",
     "type": "magento2-module",
     "version": "0.0.1",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Tijs van Raaij",
             "email": "magento@tijsdriven.dev",
             "homepage": "https://magento.tijsdriven.dev",
-            "role": "Author"
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -17,8 +17,8 @@
             "./src/registration.php"
         ],
         "psr-4": {
-            "TijsDriven\\TijsDriven\\": "src/",
-            "TijsDriven\\TijsDriven\\Test\\": "test/"
+            "TijsDriven\\Base\\": "src/",
+            "TijsDriven\\Base\\Test\\": "test/"
         }
     },
     "require": {
