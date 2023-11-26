@@ -2,7 +2,7 @@
     "name": "tijsdriven/m2-module-base",
     "description": "Tijs Driven Development base module for Magento 2",
     "type": "magento2-module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "authors": [
         {
